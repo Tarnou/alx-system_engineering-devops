@@ -1,2 +1,2 @@
 #!/bin/bash
-find cp -u *.html . .. 
+cp -u *.html . .. find . ..
