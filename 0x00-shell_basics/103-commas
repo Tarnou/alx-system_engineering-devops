@@ -1,2 +1,2 @@
 #!/bin/bash
-Ls -p -la -m
+ls -Ap | awk '{ORS = NR % 2 ? " " : "\n"} 1'
