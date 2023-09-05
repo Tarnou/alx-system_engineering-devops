@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "scale=2; $BREATH ^ $LOVE\n" | bc
+echo "$((BREATH ** LOVE))"
